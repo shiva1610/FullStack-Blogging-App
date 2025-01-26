@@ -2,6 +2,7 @@ pipeline {
     agent any
     
     tools {
+        #This Is the tools section
         maven 'maven3'
         jdk 'jdk17'
     }
